@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)books.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Full Catalogs of Books</title>
+
+    <link href="./books_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./books_files/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="./books_files/jumbotron.css" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="./books_files/bootstrap.min(1).css">
+    <link rel="stylesheet" href="./books_files/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="./books_files/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="./books_files/AdminLTE.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="./books_files/blue.css">
+    <link href="./books_files/font-awesome.min(1).css" rel="stylesheet">
+    <link href="./books_files/css" rel="stylesheet">
+    <link href="./books_files/home.css" rel="stylesheet">
+
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div style="width: 400px; ">
+          <div class="row">
+            <a class="navbar-brand" href="index.html" col-md-3="">Fantastic Books</a>
+            <form method="post" action="search_books.html" class="col-md-6" style="margin-top:7px">
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Search By Keyword" name="text">
+              <button type="submit" class="btn btn-primary mb-2" style="display:none"></button>
+           </form>
+          </div>
+          </div>
+        </div>
+
+        <!--/.navbar-collapse -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <!-- link to publiser_list.html -->
+              <li><a href="publisher_list.html"><span class="glyphicon glyphicon-paperclip"></span>&nbsp; Publishers</a></li>
+              
+              <li><a href="category_list.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp; Categories</a></li>
+              <!-- link to books.html -->
+              <li><a href="books.html"><span class="glyphicon glyphicon-book"></span>&nbsp; Books</a></li>
+              <!-- link to shopping cart -->
+              <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; My Cart</a></li>
+                <li><a href="about.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp; About us</a></li>
+               <li><a href="signin.html"><span class="	glyphicon glyphicon-log-in"></span>&nbsp; Signin</a></li><li><a href="signup.html"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;Sign up</a></li>              
+            </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container" id="main">
+  <p style="color: black;" class="lead text-center text-muted">Full Catalogs of Books</p>
+<h5 style="color: black;" class="lead text-muted">Sort By:</h5>
+
+<form method="post" action="books.html">
+  <div class="radio">
+    <label><input type="radio" name="asc">Ascending</label>
+  </div>
+  <div class="radio">
+    <label><input type="radio" name="desc">Descending</label>
+  </div>
+
+  <button type="submit" class="btn btn-secondary" name="title">Title</button>
+  <button type="submit" class="btn btn-secondary" name="price">Price</button>
+  <button type="submit" class="btn btn-secondary" name="author">Author</button>
+  <button type="submit" class="btn btn-secondary" name="clear">Clear</button>
+  
+</form>
+
+<br><br>
+
+          <div class="row">
+                  <div class="col-md-3">
+            <a href="books.html?=21">
+              <img class="img-responsive img-thumbnail" src="./books_files/gold.jpeg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  The Gold diggers</strong></td>
+                </tr>
+                <tr>
+                <td> Sue Nyathi</td>
+                </tr>
+                <tr>
+                <td><strong>$23.00</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+                  <div class="col-md-3">
+            <a href="books.html?=978-0-321-94786-4">
+              <img class="img-responsive img-thumbnail" src="./books_files/FAMILY.jpeg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  THE FAST 800 RECIPE BOOK: AUSTRALIAN AND NEW ZEALAND EDITION</strong></td>
+                </tr>
+                <tr>
+                <td> Dr Clare Bailey</td>
+                </tr>
+                <tr>
+                <td><strong>$23.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+                  <div class="col-md-3">
+            <a href="books.html?=978-0-7303-1484-4">
+              <img class="img-responsive img-thumbnail" src="./books_files/POLY.jpeg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  THE FAST DIET RECIPE BOOK (THE OFFICIAL 5:2 DIET)</strong></td>
+                </tr>
+                <tr>
+                <td> Mimi Spencer, Sarah Schenker</td>
+                </tr>
+                <tr>
+                <td><strong>$24.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+                  <div class="col-md-3">
+            <a href="books.html?=978-1-118-94924-5">
+              <img class="img-responsive img-thumbnail" src="./books_files/the good theives.jpg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  THE GOOD THIEVES</strong></td>
+                </tr>
+                <tr>
+                <td> Katherine Rundell</td>
+                </tr>
+                <tr>
+                <td><strong>$11.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+         
+      </div>
+      <br><br>
+      <div class="row">
+                  <div class="col-md-3">
+            <a href="books.html?=978-1-1180-2669-4">
+              <img class="img-responsive img-thumbnail" src="./books_files/five feet apart.jpg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  FIVE FEET APART</strong></td>
+                </tr>
+                <tr>
+                <td> Rachael Lippincott, Mikki Daughtry, Tobias Iaconis</td>
+                </tr>
+                <tr>
+                <td><strong>$16.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+                  <div class="col-md-3">
+            <a href="books.html?=978-1-44937-019-0">
+              <img class="img-responsive img-thumbnail" src="./books_files/kingdom if ash.jpg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  KINGDOM OF ASH (BOOK 6, THRONE OF GLASS)</strong></td>
+                </tr>
+                <tr>
+                <td> Sarah J. Maas</td>
+                </tr>
+                <tr>
+                <td><strong>$19.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+                  <div class="col-md-3">
+            <a href="books.html?=978-1-44937-075-6">
+              <img class="img-responsive img-thumbnail" src="./books_files/city of ashes.jpg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  CITY OF ASHES (THE MORTAL INSTRUMENTS BOOK 2)</strong></td>
+                </tr>
+                <tr>
+                <td> Cassandra Clare</td>
+                </tr>
+                <tr>
+                <td><strong>$19.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+                  <div class="col-md-3">
+            <a href="books.html?=978-1-4571-0402-2">
+              <img class="img-responsive img-thumbnail" src="./books_files/monsters and ghosts.jpg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  ATLAS OF MONSTERS AND GHOSTS</strong></td>
+                </tr>
+                <tr>
+                <td> Lonely Planet</td>
+                </tr>
+                <tr>
+                <td><strong>$26.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+         
+      </div>
+      <br><br>
+      <div class="row">
+                  <div class="col-md-3">
+            <a href="books.html?=978-1-484216-40-8">
+              <img class="img-responsive img-thumbnail" src="./books_files/becoming.jpg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  BECOMING</strong></td>
+                </tr>
+                <tr>
+                <td> Michelle Obama</td>
+                </tr>
+                <tr>
+                <td><strong>$49.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+                  <div class="col-md-3">
+            <a href="books.html?=978-1-484217-26-9">
+              <img class="img-responsive img-thumbnail" src="./books_files/goodnight stories for rebel girls.jpg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  GOOD NIGHT STORIES FOR REBEL GIRLS 2</strong></td>
+                </tr>
+                <tr>
+                <td> Elena Favilli &amp; Francesca Cavallo, Elena Favilli</td>
+                </tr>
+                <tr>
+                <td><strong>$49.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+                  <div class="col-md-3">
+            <a href="books.html?=9780575081406">
+              <img class="img-responsive img-thumbnail" src="./books_files/the name of the wind.jpg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  The Name of the Wind (The Kingkiller Chronicle Book 1)</strong></td>
+                </tr>
+                <tr>
+                <td> Patrick Rothfuss</td>
+                </tr>
+                <tr>
+                <td><strong>$19.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+                  <div class="col-md-3">
+            <a href="books.html?=9781409178811">
+              <img class="img-responsive img-thumbnail" src="./books_files/hey.jpeg">
+              </a>
+              <table>
+                <tbody><tr>
+                  <td><strong>  Broken Throne</strong></td>
+                </tr>
+                <tr>
+                <td> Victoria Aveyard</td>
+                </tr>
+                <tr>
+                <td><strong>$17.99</strong>  </td>
+                </tr>
+              </tbody></table>
+            </div>
+         
+      </div>
+      <br><br>
+      <div class="row">
+         
+      </div>
+      <br><br>
+      <div class="row">
+         
+      </div>
+      <br><br>
+      <div class="row">
+         
+      </div>
+      <br><br>
+      <div class="row">
+         
+      </div>
+      <br><br>
+      <div class="row">
+         
+      </div>
+      <br><br>
+      <div class="row">
+         
+      </div>
+      <br><br>
+      <div class="row">
+         
+      </div>
+      <br><br>
+      <div class="row">
+         
+      </div>
+      <br><br>
+      <div class="row">
+         
+      </div>
+      <br><br>
+<footer style="background-color: purple;"><div id="footer">
+  <style type="text/css">
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+  font-family: Rubik,Arial,sans-serif;
+    font-weight: 500;
+    color: #030929;
+}
+
+a {
+  color: #818494;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer {
+  background: #ebf4fa;
+}
+</style>
+
+<link href="./books_files/css(1)" rel="stylesheet">
+<footer>
+  <div class="container pt-10 border-bottom">
+    <div class="row">
+     
+      <div class="col-md-9 col-sm-12">
+
+        <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3">
+          <h4 class="mb-4 font-weight-bold text-uppercase">	QUICK LINKS</h4>
+        <ul class="list-group">
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="books.html">Books</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="publisher_list.html">Publishers</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="category_list.html">Category</a></li>
+        
+        </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left">
+          <h4 class="mb-4 font-weight-bold text-uppercase">Find Us</h4>
+       <p><!-- p Start -->
+                    
+                    <strong>Fantastic Books</strong>
+                    
+                    
+                    <br>Phone:+263 779 210 403<br>
+                               +263 715 072 288
+                    <br>
+                    <br>
+                    <br> address:fantasticbooks.21st@gmail.com
+                   
+                    
+                </p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
+          <h4 class="mb-4 font-weight-bold text-uppercase">User Section</h4>
+        <ul class="list-group">
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="signup.html">Sign up</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="signin.html"> Sign in</a></li>
+        </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
+          <h4 class="mb-4 font-weight-bold text-uppercase">Connect</h4>
+       		 
+                <p class="social">
+                   </p><li> <a href="books.html#" class="fa fa-facebook">&nbsp;  Facebook</a></li><br>
+                   <li>  <a href="https://twitter.com/Book_Fantastics" class="fa fa-twitter">  &nbsp; Twitter</a></li><br>
+                   <li>  <a href="books.html#" class="fa fa-instagram"> &nbsp; Instagram</a></li><br>
+                  
+                   <li>  <a href="https://www.youtube.com/channel/UC-djR1QOsm7m7SswrHyDqCg?view_as=subscriber" class="fa fa-youtube"> &nbsp;Youtube </a></li><br>
+                <p></p>
+        </div>
+<div id="copyright"><!-- #copyright Begin -->
+    <div class="container"><!-- container Begin -->
+        <div class="col-md-6"><!-- col-md-6 Begin -->
+            
+            <p class="pull-left">© 2020  All Rights Reserve</p>
+            
+        </div><!-- col-md-6 Finish -->
+        <div class="col-md-6"><!-- col-md-6 Begin -->
+            
+            <p class="pull-center">Theme by: <a href="books.html#">Dereck Njani</a></p>
+            
+        </div><!-- col-md-6 Finish -->
+    </div><!-- container Finish -->
+</div><!-- #copyright Finish -->
+</div></div></div></footer>
+</div>
+
+</footer>
+ <script src="./books_files/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./books_files/popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./books_files/bootstrap.min.js.download" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</div></body></html>
